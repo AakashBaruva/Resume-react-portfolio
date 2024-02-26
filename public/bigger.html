@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Experience and Projects</title>
+    <style>
+        body 
+        {
+            background-color: #0a0a0a; /* Dark background for contrast */
+            color: #33ff00; /* Bright green text, common in retro computer displays */
+            font-family: 'Courier New', monospace; /* Monospaced font for that retro feel */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            box-sizing: border-box; /* Makes sure padding doesn't affect the set dimensions */
+            display: flex;
+            flex-direction: column; /* Stack children vertically */
+        }
+        .screen 
+        {
+            background-color: #000; /* Ensure the screen part is black */
+            flex-grow: 1; /* Take up all available space inside the container */
+            padding: 10px;
+            box-sizing: border-box;
+        }
+    
+        .container {
+            background-color: #000; /* Black background for the screen */
+            display: flex;
+            flex-direction: column; /* Stack children vertically */
+        }
+        .text, .prompt 
+        {
+            font-family: 'Courier New', monospace;
+            color: #33ff00;
+            margin-bottom: 5px; /* Spacing between lines of text */
+        }
+        h2 {
+            font-size: 2em;
+        }
+        h1 {
+            font-size: 3em;
+        }
+        p {
+            font-size: 1.2em;
+            text-decoration: underline;
+        }
+        ul {
+            list-style: none; /* Removes the default bullet points */
+            padding: 0;
+        }
+        li {
+            font-size: 1em;
+        }
+        a {
+            color: #33ff66; /* Links color */
+            text-decoration: none; /* Removes underline from links */
+        }
+        a:hover {
+            text-decoration: underline; /* Adds underline on hover for better UI */
+        }
+        ::-webkit-scrollbar {
+        width: 5px; /* Adjust the width of the scrollbar */
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #00000030; /* Dark background for the track */
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #33ff00; /* Bright green for the scrollbar thumb */
+            border-radius: 1px; /* Optional: adds rounded corners to the scrollbar thumb */
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #28cc00; /* Slightly darker green for the thumb on hover for better UI */
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+    <div class="screen">
+        <section>
+            <h1>Aakash Baruva</h1>
+        </section>
+        <section class="professional-experience">
+            <h2>Professional Experience</h2>
+            <p>Robotic Process Automation Intern (April 2019 - May 2019)</p>
+            <ul>
+                <li>Data Scraping and Processing using Robotic Process Automation in UiPath.</li>
+                <li>Tools/Tech used: C#,UiPath,MYSQL,Microsoft Excel.</li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <p>Interactive 3D Web Experience | Feb 2024 - Present</p>
+            <ul>
+                <li>Developed an immersive 3D web experience utilizing Three.js, integrating complex geometries, animations, and user interactions to create a dynamic and engaging environment.</li>
+                <li>Tools/Tech used: Three.js, JavaScript, HTML, CSS, WebGL.</li>
+            </ul>
+            <p>Full Stack Web Developer, Exam Study Tool (Jan 2023 - May 2023)</p>
+            <ul>
+                <li>Developed a comprehensive web platform enabling students and teachers to engage in effective exam preparation, utilizing multilingual support for tests and English translation.Facilitated teacher capabilities to create customizable tests, classes, and question sets. Students can attempt timed, untimed, preparation questions or tests.</li>
+                <li>Tools/Tech used : HTML,CSS,JavaScript,Node.js,Bootstrap,AWS(EC2,RDS MySql,Elastic IP,Route 53, S3), Google Oauth,MathJax,TinyMCE,EJS.</li>
+            </ul>
+            <p>Food Wastage Reduction using Blockchain | Aug 2022 - Dec 2022</p>
+            <ul>
+                <li>Developed a smart contract using the Ethereum blockchain and Web3.js library to reduce food wastage reduction.</li>
+                <li>Tools/Tech used: Solidity, Web3.js, MongoDB, Bootstrap, HTML, CSS, EJS, ExpressJs.</li>
+            </ul>
+        </section>
+    </div>
+</div>
+</body>
+</html>
+
