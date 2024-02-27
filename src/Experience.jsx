@@ -7,18 +7,18 @@ import * as THREE from 'three';
 
 export default function Experience()
 {
-    const { position, rotation } = useControls({
-        position:
-        {
-            value: { x: -0.71, y: -0.08, z: -0.42 },
-            step: 0.001
-        },
-        rotation:
-        {
-            value: { x: -0.17, y: 0, z: 0 },
-            step: 0.001
-        }
-    })
+    // const { position, rotation } = useControls({
+    //     position:
+    //     {
+    //         value: { x: -0.71, y: -0.08, z: -0.42 },
+    //         step: 0.001
+    //     },
+    //     rotation:
+    //     {
+    //         value: { x: -0.17, y: 0, z: 0 },
+    //         step: 0.001
+    //     }
+    // })
 
     const computer = useGLTF('./laptop/scene.gltf')
     const { scene, gl } = useThree();
@@ -33,7 +33,7 @@ export default function Experience()
     }, [computer, gl.environment]);
 
     return <>
-        <Perf position="top-left" />
+        {/* <Perf position="top-left" /> */}
 
         <Environment
             files="./environment/5.hdr"
